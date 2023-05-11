@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base{
+    @font-face {
+        font-family:vazirBold;
+        src: url(/Dist/Font/Vazir-Bold.woff2);
+    }
+    @font-face {
+        font-family:vazirLight;
+        src: url(/Dist/Font/Vazir-Light.woff2);
+    }
+}
+
+@layer components{
+    .Line{
+        @apply w-3/4 h-0.5 mx-auto bg-slate-300
+    }
+  
+}
